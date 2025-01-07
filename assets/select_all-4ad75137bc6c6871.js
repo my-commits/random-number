@@ -1,0 +1,1 @@
+for(var e=document.getElementsByClassName("select_all"),t=function(){this.select()},n=0;n<e.length;n++)e[n].addEventListener("focus",t,!1);var a=document.getElementById("maxInput");a.focus(),a.select(),document.addEventListener("submit",function(e){var t=document.activeElement;("INPUT"===t.tagName||"NUMBER"===t.tagName)&&t.select()});

@@ -1,0 +1,1 @@
+!function(){function e(){document.querySelector("html").setAttribute("data-bs-theme",window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}document.querySelector("html"),window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",e),e()}();
